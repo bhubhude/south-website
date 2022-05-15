@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	margin-left: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#carousel-caption {
+	margin-top: 15px;
+	margin-bottom: 15;
+	padding-top: 5px;
+	padding-bottom: 4px;
+}
+
+/*********About me section******************/
+#about-me{
+	margin-top: 100px;
+}
+h1{
+	background-color: blue;
+	text-decoration-color: white;
+}
+h1::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.about-me{
+    width: 100%;
+    padding: 50px;
+    margin-top: 100px;
+}
+.about-me .left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.about-me .right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.about-me .info{
+    width: 70%;
+    padding: 0px 30px;
+}
+.about-img{
+    width: 40%;
+    height: 40%;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.about-me .info h2{
+    margin: 15px;
+    font-size: 30px;
+    color: darkmagenta;
+}
+.about-me .info p{
+    font-size: 17px;
+    color: blue;
+    line-height: 27px;
+}
+/****************************************committee section*************************************************/
+#committee{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    background-color: blanchedalmond;
+}
+.committee-links{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.committee-links ul{
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    column-rule: dotted 1px #fff;
+    list-style-type: none;
+    
+}
+.committee-links li{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.committee-links a{
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.committee-links img{
+    width: 64px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    border-radius: 50%;
+
+}
+/***********************************************end of committee section***********************************/
+/***--------------------------------IFOMU LASE TSHOLOTSHO----------------------------------------------------**/
+#form{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-decoration-color: darkmagenta;
+}
+.form{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url('./images/IMG-20200615-WA0060.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+input {
+    height: 24px;
+}
+.submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+/**-----------------------------footer----------------------------------------------------------*/
+
+#footer{
+    background: blue;
+    text-align: left;
+    color: darkmagenta;
+}
