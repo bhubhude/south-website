@@ -2,164 +2,258 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- <?php include('process_form.php'); ?> -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>TSHOLOTSHO SOUTH WEBSITE</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <?php include("process_form.php");?> -->
+	<style>
+	.navbar-brand {
+    	float: left;
+    	min-height: 55px; 
+    	padding: 0 15px 5px;
+	}
+	</style>
 
 </head>
 <body>
-	<section id="carousel-caption">
-		<nav class="navbar navbar-expand-lg navbar-white bg-dark">
-	  		<div class="container-fluid">
-		    	<a class="navbar-brand" href="#">MRP TSHOLOTSHO</a>
-		    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	      			<span class="navbar-toggler-icon"></span>
-		    	</button>
-		    	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	      			<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-				        	<a class="nav-link" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-				        	<a class="nav-link" href="#">About-Us</a>
-						</li>
-						<li class="nav-item">
-				        	<a class="nav-link" href="#">SignUp-Forms</a>
-						</li>
-						<li class="nav-item">
-				        	<a class="nav-link "href="#">Izithombe-Zethu</a>
-						</li>
-	      			</ul>
-		    	</div>
-		  	</div>
-		</nav>
-	</section>
-	<!slide section--->
-	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/img4.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>AMALUNGA E MRP</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>   
-    <div class="carousel-item">
-      <img src="./images/img3.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>FORTH slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="./images/img2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>IMPI YASE FREESTATE</h5>
-        <p>LEMPI YANQONTSHWA NGU MKHALIPHI KHUMALO LAMABUTHO AKHE NGESIKHATHI SE NKOSI UMZILIKAZI</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+	
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">MRP TSHOLOTSHO</a>
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">about Us</a></li>
+					<li><a href="#">SignUp-Forms</a></li>
+					<li><a href="#">Izithombe-Zethu</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- <!slide section--->
 
-	<!-------------------two column section----------------------->
-	<section id="about-me">
-		<h1>CDE BESTE GQIKILA MOYO</h1>
-	    <div class="about-me">
-	        <div class="left">
-	            <div class="info">
-	                <h2>KHUMBULANI MOYO</h2>
-	                <p><b>U KHUMBULANI MOYO WAYEMELE I TSHOLOTSHO NORTH</b></p>
-	                <p>Lorem ipsum dolor sit amet consectetur,
-	                     adipisicing elit.
-	                     Commodi voluptatibus ea accusantium quam voluptates 
-	                     adipisci quasi molestiae id?</p>
-	            </div>
-	            <div class="about-img"><img src="./images/img1.jpg"></div>
-	        </div>
+	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+			<img src="./images/img4.jpg">
+			<div class="carousel-caption">
+				<h5>AMALUNGA E MRP</h5>
+				<br>
+				<button type="button" class="btn btn-default">Get Started</button>
+			</div>
+			</div> 
+			<!-- non active -->
+			<div class="item">
+				<img src="./images/img3.jpg">
+			</div>
+			<div class="item">
+				<img src="./images/img2.jpg">
+			</div>
+		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
 
-	        <div class="right">
-	            <div class="about-img"><img src="./images/img0.jpg"></div>
-	            <div class="info">
-	                <h2>CDE BESTE GQIKILA MOYO</h2>
-	                <p> <b>U CDE GQIKILA ULANDISA NGOMSUKA WE MRP NGE TSHOLOTSHO SOUTH</b>
-	               	</p>
-	                 <br>
-	                <p>
-	                	GOOD EVENING SALIBONANI BANTWABAMI UKHULU UYAPHILA  NJALO UKHULU LOVES YOU 100%  UKHULU UTHANDA UKULAZISA NGENDLELA ESISUKA KUYO ESIKUYO
-										UKHULU JOINED MRP NGO NOVEMBER 2016. BY THAT TIME BESIBABILI ABETSHOLOTSHO MINA LO KHUMBULANI MOYO BOTH SISUKA E TSHOLOTSHO NORTH YENA ESUKA KU WARD 7 MINA KU WARD 3,AREA KNOWN AS SIPHEPHA UNDER CHIEF MATHUPHULA SAYIBAMBA KANJALO I GROUP AS TSHOLOTSHO . KUTHE SIBONA UMFUTHO WABANTU WE LOOK FOR UMUNTU OZALWA ETSHOLOTSHO SOUTH SANGAMTHOLI
-										SACABANGA UKUTHI CAN WE BOTH  SISEBENZE ENORTH LOBA SEHLUKANE SIGCWALE INDAWO YONKE ,YENA WAKHETHA UKUBAMBA I NORTH ,MINA NGAKHETHA UKUBAMBA I SOUTH CONSTITUENCY.
-										LANGIPHA UTHANDO ,UMFUTHO,LANGEMBATHISA LANGIPHA INDAWO YOKULALA.2018  ABASE SOUTH BESILO CDE I NDEBELE CURRENT CHAIRMAN , CDE C NDLOVU( TSHABANDA),CDE Z SIBANDA(MBOWANE), CDE N SIBANDA(MBOWANE), CDE E KHUMALO (SIMANJE) YIBO ABANTU ESASILABO TO KICK START UMZABALAZO,SAYAKUKHETHO SINGELAMALI KONKE KUNZIMA SEHLULEKA KHONA,TODAY SINDAWONYE NGOKUSEBENZA KWENU YIKHO 95% OF THE TIME NGISEKELA LISEBENZE IBHOLA SELIKINI BAZALWANE BASE TSHOLOTSHO SOUTH NGILANI, I WON’T GO BACK TO NORTH I’M HAPPY LANI MY DREAM YIKUTHI OUR NEXT MP ABE NGOLE NKABA YE TSHOLOTSHO, KHULU LOVES YOU
-
-	                </p>
-	            </div>
-	        </div>
-	    </div>
-	</section>
-	<div id="committee">
-		<h1>ISISHAYAMTHETHO</h1>
-		<div class="committee-links">
-			<ul>
-				<li><img src="./images/img24.jpg"><a href="">Tobious S Msebele</a></li>
-				<li><img src="./images/img23.jpg"><a href="">Eric Ncube</a></li>
-				<li><img src="./images/img27.jpg"><a href="">Given Mafa Tsuma</a></li>
-				<li><img src="./images/img21.jpg"><a href="">Micheal Ndlovu</a></li>
-				<li><img src="./images/img20.jpg"><a href="">Mercy Mkhwebu</a></li>
-				<li><img src="./images/img19.jpg"><a href="">Cliford Ndlovu</a></li>
-				<li><img src="./images/img18.jpg"><a href="">Thandazani Tshuma</a></li>
-				<li><img src="./images/img17.jpg"><a href="">Nkosinathi Moyo</a></li>
-				<li><img src="./images/img16.jpg"><a href="">Ephraim Moyo</a></li>
-				<li><img src="./images/img15.jpg"><a href="">Enelia Mathiya</a></li>
-				<li><img src="./images/img14.jpg"><a href="">Maureene Ndlovu</a></li>
-				<li><img src="./images/img13.jpg"><a href="">Admire Ncube</a></li>
-				<li><img src="./images/img12.jpg"><a href="">Success Ndebele</a></li>
-				<li><img src="./images/img11.jpg"><a href="">Albert Ngwenya</a></li>
-				<li><img src="./images/img10.jpg"><a href="">Beste Gqikila Moyo</a></li>
-				<li><img src="./images/img5.jpg"><a href="">Decent Moyo</a></li>
-				<li><img src="./images/img6.jpg"><a href="">Zanele M Moyo</a></li>
-				<li><img src="./images/img7.jpg"><a href="">Mbonisi Mahlangu</a></li>
-				<li><img src="./images/img9.jpg"><a href="">Thembisile Khumalo</a></li>
-				<li><img src="./images/img8.jpg"><a href="">Maqhawe Ncube</a></li>
-			</ul>
+	 <!--isishayamthetho------>
+	 <div class="container text-center">
+		<h3>ISISHAYAMTHETHO</h3>
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="./images/img24.jpg" id="icon">
+				<p>Tobious S Msebele</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img23.jpg" id="icon">
+				<p>Eric Ncube</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img27.jpg" id="icon">
+				<p>Given Mafa Tsuma</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img21.jpg" id="icon">
+				<p>Micheal Ndlovu</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img20.jpg" id="icon">
+				<p>Mercy Mkhwebu</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img19.jpg" id="icon">
+				<p>Cliford Ndlovu</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img18.jpg" id="icon">
+				<p>Thandazani Tshuma</p>
+			</div><div class="col-sm-4">
+				<img src="./images/img17.jpg" id="icon">
+				<p>Nkosinathi Moyo</p>
+			</div><div class="col-sm-4">
+				<img src="./images/img16.jpg" id="icon">
+				<p>Ephraim Moyo</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img15.jpg" id="icon">
+				<p>Enelia Mathiya</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img14.jpg" id="icon">
+				<p>Maureene Ndlovu</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img13.jpg" id="icon">
+				<p>Admire Ncube</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img12.jpg" id="icon">
+				<p>Success Ndebele</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img11.jpg" id="icon">
+				<p>Albert Ngwenya</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img10.jpg" id="icon">
+				<p>Beste Gqikila Moyo</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img9.jpg" id="icon">
+				<p>Thembisile Khumalo</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img8.jpg" id="icon">
+				<p>Maqhawe Ncube</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img7.jpg" id="icon">
+				<p>Mbonisi Mahlangu</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img6.jpg" id="icon">
+				<p>Zanele M Moyo</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="./images/img5.jpg" id="icon">
+				<p>Decent Moyo</p>
+			</div>
 		</div>
 	</div>
-	<!-------------------------------form section------------------------------------------------>
+
+	 <!--inkulumo ka gqikila  -->
+		<!-- <h1>CDE BESTE GQIKILA MOYO</h1> -->
+	 <div class="container">
+		<h1>CDE BESTE GQIKILA MOYO</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<h4>U CDE GQIKILA ULANDISA NGOMSUKA WE MRP NGE TSHOLOTSHO SOUTH</h4>
+				<p>
+					GOOD EVENING SALIBONANI BANTWABAMI UKHULU UYAPHILA NJALO UKHULU LOVES YOU 100% UKHULU UTHANDA UKULAZISA NGENDLELA
+					ESISUKA KUYO ESIKUYO
+					UKHULU JOINED MRP NGO NOVEMBER 2016. BY THAT TIME BESIBABILI ABETSHOLOTSHO MINA LO KHUMBULANI MOYO BOTH SISUKA E
+					TSHOLOTSHO NORTH YENA ESUKA KU WARD 7 MINA KU WARD 3,AREA KNOWN AS SIPHEPHA UNDER CHIEF MATHUPHULA SAYIBAMBA KANJALO I
+					GROUP AS TSHOLOTSHO . KUTHE SIBONA UMFUTHO WABANTU WE LOOK FOR UMUNTU OZALWA ETSHOLOTSHO SOUTH SANGAMTHOLI
+					SACABANGA UKUTHI CAN WE BOTH SISEBENZE ENORTH LOBA SEHLUKANE SIGCWALE INDAWO YONKE ,YENA WAKHETHA UKUBAMBA I NORTH ,MINA
+					NGAKHETHA UKUBAMBA I SOUTH CONSTITUENCY.
+					LANGIPHA UTHANDO ,UMFUTHO,LANGEMBATHISA LANGIPHA INDAWO YOKULALA.2018 ABASE SOUTH BESILO CDE I NDEBELE CURRENT CHAIRMAN
+					, CDE C NDLOVU(TSHABANDA),CDE Z SIBANDA(MBOWANE), CDE N SIBANDA(MBOWANE), CDE E KHUMALO (SIMANJE) YIBO ABANTU ESASILABO
+					TO KICK START UMZABALAZO,SAYAKUKHETHO SINGELAMALI KONKE KUNZIMA SEHLULEKA KHONA,TODAY SINDAWONYE NGOKUSEBENZA KWENU
+					YIKHO 95% OF THE TIME NGISEKELA LISEBENZE IBHOLA SELIKINI BAZALWANE BASE TSHOLOTSHO SOUTH NGILANI, I WON’T GO BACK TO
+					NORTH I’M HAPPY LANI MY DREAM YIKUTHI OUR NEXT MP ABE NGOLE NKABA YE TSHOLOTSHO, KHULU LOVES YOU
+				</p>
+			</div>
+			<div class="col-md-6">
+				<img src="./images/img0.jpg" class="img-responsive">
+			</div>
+		</div>
+	 </div>
+	 <br>
+	 <!-- second column -->
+	<h3>KHUMBULANI MOYO</h3>
+	 <div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img src="./images/img1.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-6">
+				<p><b>U KHUMBULANI MOYO WAYEMELE I TSHOLOTSHO NORTH</b></p>
+				<br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
+					 quaerat? Inventore, porro,
+					  deleniti tenetur impedit vero commodi adipisci culpa quam nemo sed sint.
+					   Dicta minima praesentium, inventore necessitatibus possimus fuga ullam cumque sapiente,
+					    exercitationem dolores consequuntur mollitia? A quos repellendus suscipit impedit dolorem culpa,
+					 nam, architecto est earum optio alias?</p>
+			</div>
+		</div>
+	 </div>
 	
-	<h1>IFOMU ELISAYINWA NGAMATISHA ASE TSHOLOTSHO ANGAQHATSHWANGA</h1>
-	<!-- <div class="form">
-		<form id="form" action="https://formspree.io/f/mgeqegjn"method="POST">
-			<table  cellspacing="0" cellpadding="10">
+	<h2>IFOMU ELISAYINWA NGAMATISHA ASE TSHOLOTSHO ANGAQHATSHWANGA</h2>
+	<div class="form">
+		<form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
+		<!-- <form id="my-form" action="https://formspree.io/f/mgeqegjn" method="POST"></form> -->
+			<!-- <label>Email:</label>
+			<input type="email" name="email" />
+			<br>
+			<br>
+			<label>igama:</label>
+			<input type="text" name="firstname" />
+			<br>
+			<br>
+			<label>isibongo:</label>
+			<input type="text" name="lastname" />
+			<br>
+			<br>
+			<label>Message:</label>
+			<input type="text" name="message" />
+			<br>
+			<br>
+			<button id="my-form-button">Submit</button> -->
+			<!-- <?php include("process_form.php");?> -->
+			<table>
 				<tr>
 					<td>Igama</td>
 					<td><input type="text" name="fname" size="40"></td>
 				</tr>
+				<br>
 				<tr>
 					<td>Isibongo</td>
 					<td><input type="text" name="lname" size="40"></td>
+					<br>
 				</tr>
+				<br>
 				<tr>
 					<td>Email</td>
 					<td><input type="email" name="email" size="40"></td>
 				</tr>
 				<tr>
 					<td>Inombolo zocingo</td>
-					<td><input type="tel" name="mobile" size="20"></td>
+					<td><input type="text" name="mobile" size="20"></td>
 				</tr>
 				<tr>
 					<td>Isifunda</td>
@@ -175,16 +269,16 @@
 				</tr>
 				<tr>
 					<td>Ubulili</td>
-					<td><input type="radio" name="a">  Indoda <input type="radio" name="a">  Umfazi </td>
+					<td><input type="radio" name="a"> Indoda <input type="radio" name="a"> Umfazi </td>
 				</tr>
 				<tr>
 					<td>Your certificate</td>
-					<td><input type="radio" name="cert">  Degree <input type="radio" name="cert"> Deploma </td>
+					<td><input type="radio" name="cert"> Degree <input type="radio" name="cert"> Deploma </td>
 				</tr>
 				<tr>
 					<td>Owakufundelayo</td>
 					<td>
-						<select>
+						<select name="choose">
 							<option value="">Umbalisi</option>
 							<option value="">Umongikazi</option>
 							<option value="">Udokotela</option>
@@ -193,73 +287,132 @@
 					</td>
 				</tr>
 				<tr>
-					<center><td><input type="button" value="Thumela"></td></center>
+					<!-- <button id="my-form-button">Thumela</button> -->
+					<!-- <td><button class="submit" type="button" value="Thumela"></button></td> -->
+					<td><input type="submit" name="submit" value="Thumela"></td>
 				</tr>
-			</table> -->
-			<form id="my-form" action="https://formspree.io/f/mgeqegjn" method="POST">
-				<label>Email:</label>
-				<input type="email" name="email" />
-				<br>
-				<br>
-				<label>igama:</label>
-				<input type="text" name="firstname" />
-				<br>
-				<br>
-				<label>isibongo:</label>
-				<input type="text" name="lastname" />
-				<br>
-				<br>
-				<label>Message:</label>
-				<input type="text" name="message" />
-				<br>
-				<br>
-				<button id="my-form-button">Submit</button>
-				<p id="my-form-status"></p>
-			</form>
-			<!-- Place this script at the end of the body tag -->
-			<script>
-				var form = document.getElementById("my-form");
-
-				async function handleSubmit(event) {
-					event.preventDefault();
-					var status = document.getElementById("my-form-status");
-					var data = new FormData(event.target);
-					fetch(event.target.action, {
-						method: form.method,
-						body: data,
-						headers: {
-							'Accept': 'application/json'
-						}
-					}).then(response => {
-						if (response.ok) {
-							status.innerHTML = "Thanks for your submission!";
-							form.reset()
-						} else {
-							response.json().then(data => {
-								if (Object.hasOwn(data, 'errors')) {
-									status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-								} else {
-									status.innerHTML = "Oops! There was a problem submitting your form"
-								}
-							})
-						}
-					}).catch(error => {
-						status.innerHTML = "Oops! There was a problem submitting your form"
-					});
-				}
-				form.addEventListener("submit", handleSubmit)
-			</script>
+			</table>
 		</form>
+	<!-- </form> -->
+		<!-- Place this script at the end of the body tag -->
+		<script>
+			var form = document.getElementById("my-form");
 
-	</div>		
+			async function handleSubmit(event) {
+				event.preventDefault();
+				var status = document.getElementById("my-form-status");
+				var data = new FormData(event.target);
+				fetch(event.target.action, {
+					method: form.method,
+					body: data,
+					headers: {
+						'Accept': 'application/json'
+					}
+				}).then(response => {
+					if (response.ok) {
+						status.innerHTML = "Thanks for your submission!";
+						form.reset()
+					} else {
+						response.json().then(data => {
+							if (Object.hasOwn(data, 'errors')) {
+								status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+							} else {
+								status.innerHTML = "Oops! There was a problem submitting your form"
+							}
+						})
+					}
+				}).catch(error => {
+					status.innerHTML = "Oops! There was a problem submitting your form"
+				});
+			}
+			form.addEventListener("Thumela", handleSubmit)
+		</script>
+	</div>
+	<div class="text">
+		<h3>Umkhombandlela nge TSHOLOTSHO</h3>
+		<p>
+			TSHOLOTSHO SOUTH CONSTITUENCY
+			
+			UMLAYEZO OVELA "MRP" TSHOLOTSHO SOUTH CONSTITUENCY
+			
+			
+			NGIYALIBINGELELA BANTU BAKITHI KUNDAWO ELIKUZO NGAMA WARD WETHU ANGU 22 TSHOLOTSHO SOUTH CONSTITUENCY
+			
+			ZINENGI IZINTO EZIDINGEKAYO ESITHEMBISA UKUBAMBISANA LANI NJENGEZAKHAMUZI UKUZENZA ,LOKHU ANGEKE KUSEHLULE NXA SIBAMBENE
+			
+			SILIBANDLA LE MTHWAKAZI REPUBLIC PARTY NANKU ESIZAQALA UKUKULUNGISA NGAMA WARD WETHU
+			
+			NANZI IZETHEMBISO EZIVELA TSHOLOTSHO SOUTH CONSTITUENCY LEADERSHIP NJALO LEZIZINTO ZIZAKWENZEKA NGEMPUMELELO UMA UZULU
+			WONE EVOTELA I MRP
+			Ibandla le MRP ngeke livumele amashona ukuba afundise abantwana abasemazingeni aphansi okuyi Pre School le Primary
+			School njalo lona lizavumela umuntu kuphelaumuntu obuya kude oyabe elekhono elingekho endaweni .Isibonelo uma kudingeka
+			udokotela ohlizwa abantu
+			
+			Ibandla leMRP likwazi kamhlophe ukuthi kulezimayini endaweni ezifana le Lulwane, Gwese lezinye indawo kodwa lezozimayini
+			ezihlomulisi abantu beTsholotsho. Ngakho ibandla le MRP uma liba semandleni lizaqinisekisa ukuba lezo zimayini aziwondli
+			abantu bokuza kodwa zizohlomulisa umphakathi njalo ibandla ngeke livume ukuthi umuntu ongayena wendawo asebenze kuleyo
+			migodi.Njalo lezozimayini intela yazo izokwakha imigwaqo lokugebha amadamu ukuze izfuyo zithole amanzi
+			
+			Ibandla le MRP lizoqinisekisa ukuba imali yemithelo isebenzela abantu bendawo njalo kayiphumeli phandle kwe Tsholotsho.
+			
+			
+			Ibandla le MRP lizavuselela ezamasiko isibonelo ukusokwa kwamajaha lo siko lokuthomba kwezintombi njalo lemfundiso
+			ezafundisa amajaha ukuba uma eganwa yini okumele ayenze noma angamele ayenze kanjalo lezintombi ukuba umazigana yikuphi
+			okulindeleke kuzo njalo yikuphi ezingamele zikwenze.Ngoba sinanzelele ukuthi siyisizwe imizi ayisaqini ngoba inengi
+			lingena emshadweni lingafundisiwe.Njalo ibanndla ngeke livumele abaholi bomdabu bazihlanganise lezombusazwe.
+			
+			Ibandla le MRP lizakwenza ama project ukuthi abantu beziphilise njalo lizobheka ukuthi indawo ethile kumele ibe layiphi
+			i project. Isibonelo indawo ezilamanzi amadamu lemithombo ezifana labo Dikili iqembu lizakhuthaza ukuba kuthengwe
+			umishini edonsa amanzi ukuzela ukuthi kube lama Irrigation systems ukuba abantu belime, Ibandla lizakhuthaza ukuba
+			ngeWard nge Ward kube lemishi yokuthunga ukwenzela ukuthi labo abaswelayo njalo sebebadala okanye izintandane
+			bethungelwe impahla.Kulawo maProject ibandla izovumela ukuthi abantu abakwazi ukupheka utshwala be Rejestwe ukuze labo
+			abanatha utshwala beyethanga kubo lokho kuyabe kuyikuvula amathuba omsebenzi.Ngakho ibandla ngeke lisayivumela ingwebu
+			isebenze eTsholotsho ngoba uzulu kahlomuli lutho kuNgwebu kodwa uthenga utshwala imihla lamalanga leyomali
+			ibisihuqhuluzwa ngamashona.
+			Ibandla lizofaka iNetwork booster kuze uzulu angahlutshwa yi network njalo ibandla lizaqinisekisa ukuthi kungenani nge
+			Ward nge Ward kube labantu ababili abalolwazi nge Internet ukwenzela ukuba uma isihlupha i Booster kungayidingwa umuntue
+			Harare.
+			
+			Ibandla lizokuqinisekisa ukuba wonke umntwana oswelayo lothalayo bazothola imfundo elinganayo njalo esezingeni
+			eliphezulu, Njalo ibandla lizobakhuthaza abantwana ukuba bathande ezemidlalo ukuze bengazitholi sebeyenza okubi
+			
+			Sizalwisa ukuthi amaStands okwakha iTsholotsho Centre engaduli koyinzalo yase Tsholotsho olesithupha esithi 73 ukuze
+			senqabele ukugcwala kwamaShona e Tsholotsho Centre ,Lidolobho lethu i Tsholotsho hayi elamaShona labo balekubo
+			abayexokozela kubo
+			
+			
+			
+			ISIXWAYISO
+			Bantu bakithi khohlwani ngokubeliqilwa kuthiwa asikhupheni iZANU PF, kathi ukuze phume iZanu kumele livote njani njalo
+			kangaki, ngo 2000 lavota yawina iMDC yayikhuphi ZANU PF??
+			Lavota ngo 2008 yawinanjalo yayikhupha iZANU PF yini??
+			Lavota ngo2013 yawina futhi lango 2018 sekunguChamisa kungani ingayikhuphanga iZANU PF iMDC yoneyi esiyiCCC ?? nxa
+			lingananzeleli ubuqili bama SHONA bazalitshiya ligugile sebethumbe konke okwethu abantwana behlupheka emazweni kodwa
+			imisebenzi yabo ikhona ilokhi phiwa amashona
+			
+			ZANU PF/ MDC esiyiCCC ngamaProject wamaShona okuthumba konke okwethu yikhubona uMP oh Councilor ngazabe
+			ngoweMDC/CCC/ZANU PF akulalutshintsho abalwenzayo ngoba abalandaba lathi ,babonakala sekuzavotwa sebezofuniVoti lenu
+			kuphela .
+			Likhona yini iNdebele elavoteliZanu pf ngo1980 ?? Angithi baqilubaba uNkomo bencediswa ngamaKhiwa ,manje mawulahleka
+			uthi uzakhuphi ZANU PF ungayifakanga njalo uthi uyikhupha ngelinye iShona kambe aliboni lidlalisa iVoti lenu
+			Ovoteli MDC/CCC uyafana lovoteli iZanu pf lonke linika AMASHONA ivoti . Amavoti wenu ayakhonale emaShoneni
+			Osalandela iZanu pf loyoke ngovele engelalutho emqondweni kumnyama tshuuu kambe iZanu isile42 years ibusa ingasenzeli
+			lutho ,yibo ababulala abantu bakithi ngeGukukuraundi ,babhomba iNjelele lamhla asilantutho ezigabeni abantwana
+			bayabulawa emazweni bedinga imisebenzi ngenxa yeZANU PF
+			
+			Thina sifuna amalungelo wabantu ahlonitshwe kungabi khona ophila ngokusatshiswa
+			Ngakho bantu bakithi ayikho into esingayenza sisodwa izinto lezi ukuze zenzeke kumele abantu basukume babambisane
+			kungavunyelwa into elulaza indawo noma umphakathi noma abantu ngakho abantu abazibike izinto ezingahambi kahle ukuze
+			zilungiswe zingayekelelwa
 
-	
-<!---------------------------footer------------------------------------------------->
+		</p>
+
+	</div>
+	<!---------------------------footer------------------------------------------------->
 	<footer id="footer">
 		<div class="wrapper-form">
 			<p><i><b>CREATED BY MAZILANKATHA ADMIRE</b></i></p>		
 		</div>
-		
 	</footer>		
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
