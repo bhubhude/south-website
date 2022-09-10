@@ -100,6 +100,7 @@ if ($_SERVER ["REQUEST_METHOD"]=="POST") {
             $fname = $date = $lname = $email = $phone = $district = $phone = $success = "";
         }
     }
+    
 }
 function test_input($data) {
     $data = trim($data);
